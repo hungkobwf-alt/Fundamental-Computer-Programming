@@ -9,3 +9,5 @@ year = input("Please type in a year: ")
 print(f"Once upon a time, there was a valiant knight named {name} born in the year {year} {name} is a valiant knight, born in the year {year}. One morning, {name} woke up to an awful racket: a dragon was approaching the village. Only {name} could save the village's resident.")
 greet = "Hello Hung"
 print("Hello World!")
+# 5/2/2026
+friends = [ "Minh", "Nhan", "Quynh Anh", "Hihi"]
