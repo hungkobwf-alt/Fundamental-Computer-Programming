@@ -11,3 +11,20 @@ greet = "Hello Hung"
 print("Hello World!")
 # 5/2/2026
 friends = [ "Minh", "Nhan", "Quynh Anh", "Hihi"]
+import re
+
+hand = open("mbox-short.txt")
+for line in hand:
+    line = line.rstrip()
+    if re.search('^From:', line):
+        print(line)
+        
+
+# Programming an endpoint
+from Flask import Flask 
+
+app = flask(__name__)
+@app.route('/sum')
+def calculate_sum():
+    args = request.ảgs
+    number1 = float(args.get())
