@@ -7,4 +7,4 @@ class CreditCard:
         self.number = number
         self.cvv = cvv
         self.expiry = expiry
-class User:
+class User
